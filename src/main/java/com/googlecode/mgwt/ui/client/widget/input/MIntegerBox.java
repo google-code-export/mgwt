@@ -48,7 +48,7 @@ public class MIntegerBox extends MValueBoxBase<Integer> {
   }
 
   public MIntegerBox() {
-    this(InputApperanceHolder.DEFAULT_APPERAERANCE);
+    this(InputAppearanceHolder.DEFAULT_APPEARANCE);
   }
 
   public MIntegerBox(InputAppearance appearance) {

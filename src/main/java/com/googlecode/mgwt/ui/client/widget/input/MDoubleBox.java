@@ -46,7 +46,7 @@ public class MDoubleBox extends MValueBoxBase<Double> {
   }
 
   public MDoubleBox() {
-    this(InputApperanceHolder.DEFAULT_APPERAERANCE);
+    this(InputAppearanceHolder.DEFAULT_APPEARANCE);
   }
 
   public MDoubleBox(InputAppearance appearance) {
