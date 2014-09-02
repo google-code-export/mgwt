@@ -24,7 +24,7 @@ package com.googlecode.mgwt.ui.client.widget.input;
 public class MEmailTextBox extends MTextBox {
 
 	public MEmailTextBox() {
-		this(InputApperanceHolder.DEFAULT_APPERAERANCE);
+		this(InputAppearanceHolder.DEFAULT_APPEARANCE);
 
 	}
 

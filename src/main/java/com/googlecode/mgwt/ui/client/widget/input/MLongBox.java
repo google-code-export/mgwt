@@ -47,7 +47,7 @@ public class MLongBox extends MValueBoxBase<Long> {
   }
 
   public MLongBox() {
-    this(InputApperanceHolder.DEFAULT_APPERAERANCE);
+    this(InputAppearanceHolder.DEFAULT_APPEARANCE);
   }
 
   public MLongBox(InputAppearance appearance) {
