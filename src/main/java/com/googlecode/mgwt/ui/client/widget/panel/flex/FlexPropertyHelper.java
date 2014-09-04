@@ -38,7 +38,7 @@ public final class FlexPropertyHelper {
   }
 
   public static enum Justification {
-    START("flex-start"), END("flex-end"), CENTER("center"), SPACE_BETWEEN("space-between");
+    START("flex-start"), END("flex-end"), CENTER("center"), SPACE_BETWEEN("space-between"), SPACE_AROUND("space-around");
 
     private final String cssValue;
 
@@ -148,6 +148,9 @@ public final class FlexPropertyHelper {
       case SPACE_BETWEEN:
         el.getStyle().setProperty("WebkitBoxPack", "justify");
         break;
+      case SPACE_AROUND:
+          el.getStyle().setProperty("WebkitBoxPack", "justify");
+          break;
       default:
         throw new RuntimeException();
     }
