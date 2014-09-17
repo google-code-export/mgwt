@@ -84,13 +84,13 @@ public final class FlexPropertyHelper {
 
   private static void setFlexProperty(Element el, String name, String value) {
     setStyleProperty(el, "MozFlex" + name, value);
-    setStyleProperty(el, "webkitFlex" + name, value);
+    setStyleProperty(el, "WebkitFlex" + name, value);
     setStyleProperty(el, "flex" + name, value);
   }
 
   private static void setProperty(Element el, String name, String value) {
     setStyleProperty(el, "Moz" + name, value);
-    setStyleProperty(el, "webkit" + name, value);
+    setStyleProperty(el, "Webkit" + name, value);
     setStyleProperty(el, name, value);
   }
 
